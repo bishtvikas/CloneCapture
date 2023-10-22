@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  padding: 0;
+   font-family: "Poppins", sans-serif;
+ }
+.login-outer-container{
+   height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.login-inner-container{
+  /* border: .1rem solid blue; */
+  height: 90vh;
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.loginPage-pic img{
+  max-width: 22rem;
+  min-width: 22rem;
+  max-height: 33.5rem;
+  min-height: 33.5rem;
+}
+.form-side{
+  /* border: 1px solid red; */
+  max-height: 33.5rem;
+  min-height: 33.5rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.insta{
+  /* margin: 0; */
+  font-weight: 100;
+   font-size: 2.5rem;
+  font-family: 'Lobster', cursive;
+ }
+.insta2{
+  /* margin: 0; */
+  font-weight: 100;
+   font-size: 2.5rem;
+  font-family: 'Lobster', cursive;
+ }
+
+.loginPage-form{
+  border: 1px solid rgb(194, 194, 198);
+   max-width: 22rem;
+  min-width: 22rem;
+  /* max-height: 30.5rem; */
+  /* min-height: 25.5rem; */
+   display: flex;
+   flex-direction: column;
+   /* justify-content: space-between; */
+   align-items: center;
+}
+.input-box{
+    /* font-family: 'Lobster', cursive; */
+
+   min-width: 15rem;
+  max-width: 15rem;
+  margin-top: .4rem;
+  padding: .5rem;
+  border-radius: .2rem;
+   border: 1px solid grey;
+  background-color: rgba(232, 229, 229, 0.37);
+ }
+.input-box:focus{
+  outline: none;
+}
+#login-btn{
+  min-width: 16rem;
+  max-width: 16rem;
+  margin-top: 1rem;
+  padding: .6rem;
+  border-radius: .5rem;
+  border: none;
+  background-color: rgb(76, 181, 249);
+  color: white;
+}
+#login-btn:hover{
+  background-color: rgb(165, 233, 255);
+  cursor: pointer;
+}
+
+.or{
+  color: rgb(144, 137, 137);
+  font-size: small;
+}
+#loginwithfb{
+  font-size: small;
+  color: rgba(6, 6, 88, 0.822);
+  /* border: 1px solid red; */
+}
+
+#loginwithfb:hover{
+  cursor:pointer;
+}
+.signup-link-box{
+  margin-top: .5rem ;
+  display: flex;
+  justify-content: center;
+  max-width: 22rem;
+  min-width: 22rem;
+   border: 1px solid rgb(194, 194, 198);
+font-size: .8rem;
+}
+
+.signup{
+  /* color: rgb(61, 193, 237); */
+  color: rgb(82, 149, 246);
+  font-weight: lighter;
+
+ }
+ .signup:hover{
+  cursor: pointer;
+ }
+
+.Get-the-app{
+display: flex;
+justify-content: center;
+font-size: small;
+ }
+ 
+.app-image-box{
+  display: flex;
+  margin: auto;
+  /* justify-content: space-around; */
+  /* border: 1px solid red; */
+}
+.app-image-box img{
+  min-width: 7rem ;
+  max-width: 7rem ;
+}
+
+.credits{
+color: rgb(118, 118, 121);
+font-size: small;
+}
+
+/* SignupPage.js */
+
+.signup-outer-box{
+  /* background-color: lightcoral; */
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.oneliner{
+  
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 0; */
+  /* padding: ; */
+  margin-top: .9rem;
+  margin-bottom: .9rem;
+  color: rgb(149, 142, 142);
+}
+ 
+.oneliner p {
+  margin: 0;
+  /* padding:0; */
+  font-size: small;
+  font-weight:normal;
+  color: grey;
+  font-size: 1rem;
+
+}
+
+
+.form-box{
+  width: 18rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  /* background-color:lightblue; */
+  padding: 1rem;
+  border: 1px solid rgb(194, 194, 198);
+
+}
+ 
+
+.login-link-box{
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(194, 194, 198);
+font-size: .8rem;
+width: 18rem;
+padding: 0 1rem 0 1rem;
+}
+
+.signup-inner-box{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+ 

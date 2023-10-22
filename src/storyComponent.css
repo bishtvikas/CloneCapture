@@ -1,0 +1,19 @@
+.story-component{
+    /* background-color: yellow; */
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-left: 12px;
+    color:  rgb(250, 250, 250);
+    font-size: small;
+}
+.story-component img{
+     height: 70px;
+     width: 70px;
+     object-fit: cover;
+    border-radius: 50%;
+}
+
